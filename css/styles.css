@@ -1,0 +1,294 @@
+:root {
+  --color-IRIS: #4d5ae5;
+  --color-NAVYBLU: #2e2f42;
+  --color-SLATE: #434455;
+  --color-Cloud: #f4f4fd;
+  --color-WHITE: #ffffff;
+  --color-OCEAN: #404bbf;
+  --color-background-hero: #2e2f42;
+  --color-background-Header: #ffffff;
+  --color-background-button: #4d5ae5;
+  --color-background-general:: #E5E5E5;
+   --color-card-team:#ffffff;
+   --color-background-team: #f4f4fd;
+   
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-SLATE);
+}
+a {
+  cursor: pointer;
+}
+p {
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+/* ===============COMPONENTS=================== */
+
+
+.page-title {
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color:var(--color-NAVYBLU);
+}
+
+.title { font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-NAVYBLU);
+
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-SLATE) ;
+
+}
+/* ===============/COMPONENTS=================== */
+
+/* =======================MAIN PAGE=========*/
+/* =======================Main page Header=======*/
+
+.header {
+  background: var(--color-background-Header);
+  /* CORNFLOWER */
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-nav {
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-IRIS);
+ 
+}
+
+.logo-studio {
+ 
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-NAVYBLU);
+}
+.nav-list  {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-NAVYBLU);
+}
+
+.-nav-item {
+   
+}
+.nav-link {
+   color:var(--color-NAVYBLU);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color-OCEAN);
+}
+
+.header-contacts {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-SLATE);
+}
+.contacts-list {
+}
+.contacts-item {}
+
+.contacts-link
+{ 
+  color: var(--color-SLATE);
+}
+
+ 
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+
+/* =======================Main page Header=======*/
+
+/*=========Main page - Hero image*=================*/
+.hero {
+  background: var(--color-background-hero);
+  width: 1440px;
+  
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-WHITE);
+}
+.hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-WHITE);
+  background: var(--color-background-button);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background:var(--color-OCEAN) ;
+  
+ } 
+/*=========Main page - Hero image*=================*/
+
+/* ===========Main page - Section 1 - Feature==========*/
+
+.feature {
+}
+.feature-title {
+}
+.feature-list {
+}
+.feature-item {
+}
+
+/* ===========Main page - Section 1 - Feature==========*/
+
+
+/* ===========/Main page - Section 2 - What are we doing==========*/
+
+
+
+.works {
+}
+.works-list {
+}
+.works-item {
+}
+.works-image {
+
+  /* ===========/Main page - Section 2 - What are we doing==========*/
+
+/* ===========Main page - Section 3 - Our Team==========*/
+
+}
+.team { background: var(--color-background-team);
+
+}
+.team-list {
+}
+.team-item {
+  background:var(--color-card-team);
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
+}
+.team-image {
+}
+.team-profession {
+}
+/* ===========/Main page - Section 3 - Our Team==========*/
+
+
+/* ===========Footer==========*/
+
+.footer {
+  background: var(--color-background-hero);
+ 
+}
+.logo-footer {
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+
+  /* display: flex; */
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-Cloud); 
+
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+}
+.footer-paragraph {
+   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-Cloud);
+}
+
+/* ====================Footer=============*/
+/* =======================MAIN PAGE=========*/
+/* ===================================== */
+/* ====================================== */
+/* ===================================== */
+/* =========================PORTFOLIO=========== */
+
+/* ===============Section 1  Filter========== */
+
+.filter{
+
+}
+.filter-list{
+}
+.filter-btn{  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  background: var(--color-Cloud);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--color-IRIS);
+  
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--color-WHITE); 
+  background: #404BBF; 
+}
+/* ========Section 1  Filter======= */
+
+/* ========ROW 1-3================= */
+.project{}
+
+.project-item{
+border: 1px solid #E7E9FC;
+}
+.works-project-image{}
+
+
+/* ========ROW 1-3================= */
