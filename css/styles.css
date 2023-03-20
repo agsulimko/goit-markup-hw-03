@@ -81,12 +81,16 @@ outline: 2px solid black;}
 /* =======================Main page Header=======*/
 
 .header {
-  background: var(--color-background-Header);
+  background: var(--color-background-general);
   border-bottom: 1px solid #e7e9fc;
       outline: 2px solid tomato ;
       margin-left: auto;
         margin-right: auto; 
         width: 1440px; 
+
+
+       
+        
 }
 
 .header-nav {
