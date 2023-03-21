@@ -74,7 +74,28 @@ outline: 2px solid black;}
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-SLATE) ;
+ } 
+    
+  .image {
+   
 }
+.project-item .image {
+  padding-bottom: 32px;
+  
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* ===============/COMPONENTS=================== */
 
 /* =======================MAIN PAGE=========*/
@@ -88,9 +109,7 @@ outline: 2px solid black;}
         margin-right: auto; 
         width: 1440px; 
 
-
-       
-        
+      
 }
 
 .header-nav {
@@ -249,8 +268,7 @@ padding-bottom: 120px;
 }
 .works-item {
 }
-.works-image {
-}
+
   /* ===========/Main page - Section 2 - What are we doing==========*/
 
 /* ===========Main page - Section 3 - Our Team==========*/
@@ -273,6 +291,7 @@ border-radius: 0px 0px 4px 4px;
 .team-image {
   margin-bottom: 32px;
 }
+
 .team-profession {
 }
 /* ===========/Main page - Section 3 - Our Team==========*/
@@ -368,9 +387,6 @@ border: 1px solid #E7E9FC;
 background: #FFFFFF;
 width: 360px;
   height: 420px; 
-}
-.project-image{
-margin-bottom: 32px;
 }
 
 
