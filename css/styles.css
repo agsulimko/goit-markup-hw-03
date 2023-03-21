@@ -76,7 +76,7 @@ outline: 2px solid black;}
   color: var(--color-SLATE) ;
  } 
     
-  .image {
+  .image { display: block;
    
 }
 .project-item .image {
@@ -104,16 +104,17 @@ outline: 2px solid black;}
 .header {
   background: var(--color-background-general);
   border-bottom: 1px solid #e7e9fc;
-      outline: 2px solid tomato ;
       margin-left: auto;
         margin-right: auto; 
         width: 1440px; 
+        height: 72px;
 
       
 }
 
 .header-nav {
 padding-top: 24px;
+display: flex;
 }
 .logo {
   display: inline-block;
@@ -125,7 +126,7 @@ padding-top: 24px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-IRIS);
-  outline: 2px solid blue;
+  padding-right: 76px;
 }
 
 .logo-studio {
@@ -135,17 +136,19 @@ padding-top: 24px;
   color: var(--color-NAVYBLU);
 }
 .nav-list  {
-  padding: 0;
+  
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-NAVYBLU);
-}
+  display: flex;
 
+}
+.div-nav{display:flex}
 .nav-item {
-   
+  padding-right: 40px;
 }
 .nav-link {
    color:var(--color-NAVYBLU);
@@ -163,14 +166,21 @@ padding-top: 24px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-SLATE);
+padding-top: 24px;
 }
-.contacts-list {padding: 0;
+
+
+.contacts-list {
+display: flex;
+padding-left: 252px;
+ 
 }
 .contacts-item {}
 
 .contacts-link
 { 
   color: var(--color-SLATE);
+padding-left:  40px;
 }
  
 .contacts-link:hover,
@@ -288,7 +298,7 @@ background:var(--color-card-team);
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
 }
-.team-image {
+.team-image { display: block;
   margin-bottom: 32px;
 }
 
