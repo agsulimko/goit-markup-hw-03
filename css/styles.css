@@ -106,6 +106,8 @@ display: flex;
 align-items: center;
 gap: 76px;
 margin-right: auto;
+padding-top: 24px;
+padding-bottom: 24px;
 
 }
 .logo {
@@ -138,8 +140,7 @@ margin-right: auto;
 .div-nav{
 display:flex;
 align-items: center;
-padding-top: 24px;
-padding-bottom: 24px;
+
 } 
 
 .nav-link {color:var(--color-NAVYBLU);}
