@@ -31,6 +31,12 @@ ul{
   margin: 0;
   padding-left: 0;
   }
+
+  img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+    }
 /* ===============COMPONENTS=================== */
 .container{
   max-width: 1158px;
@@ -66,13 +72,6 @@ color:var(--color-NAVYBLU);
   letter-spacing: 0.02em;
   color: var(--color-SLATE) ;
  } 
-    
-.images { display: block;
-max-width: 100%;
-height: auto;
-}
-
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -264,9 +263,6 @@ padding-bottom: 120px;
 background-color:var(--color-card-team);
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
-}
-.team-images { 
-  display: block; 
 }
 
 .team-card{
