@@ -19,7 +19,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color-SLATE);
-  background: var(--color-background-general);  
+  background-color: var(--color-background-general);  
 }
 a {cursor: pointer;}
 p {
@@ -95,7 +95,7 @@ height: auto;
 /* =======================Main page Header=======*/
 
 .header {
-  background: var(--color-background-general);
+  background-color: var(--color-background-general);
   border-bottom: 1px solid #e7e9fc;
   margin: 0 auto;
   padding-top: 24px;
@@ -175,7 +175,7 @@ color: var(--color-SLATE);
 
 /*==================Main page - Hero image=================*/
 .hero {
-  background: var(--color-background-hero);
+  background-color: var(--color-background-hero);
   text-align: center;
   margin: 0 auto;
   padding-top: 188px;
@@ -253,7 +253,8 @@ padding-bottom: 120px;
 
 /* ===========Main page - Section 3 - Our Team==========*/
 
-.team { background: var(--color-background-team);
+.team { 
+  background-color: var(--color-background-team);
   margin: 0 auto;
   padding-top: 120px;
   padding-bottom: 120px;
@@ -263,7 +264,7 @@ padding-bottom: 120px;
   justify-content: space-between;
 }
 .team-item {
-background:var(--color-card-team);
+background-color:var(--color-card-team);
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
 }
@@ -282,7 +283,7 @@ text-align: center;
 /* ===========Footer==========*/
 
 .footer {
-background: var(--color-background-hero);
+background-color: var(--color-background-hero);
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -351,7 +352,7 @@ margin: 0 auto;
 .filter-btn:hover,
 .filter-btn:focus {
   color: var(--color-WHITE); 
-  background: #404BBF; 
+  background-color: #404BBF; 
   border-color: transparent;
 }
 /* ========Section 1  Filter======= */
