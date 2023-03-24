@@ -141,7 +141,6 @@ display:flex;
 align-items: center;
 } 
 
-
 .nav-link {color:var(--color-NAVYBLU);}
 
 .nav-link:hover, 
@@ -213,7 +212,6 @@ color: var(--color-SLATE);
 .feature {
 padding-top: 120px;
 padding-bottom: 120px;
-
 }
 
 .feature-list {
@@ -246,10 +244,7 @@ padding-bottom: 120px;
   display: flex;
   justify-content:space-between; 
   padding-bottom: 120%px;
- 
 }
-
-.works-item {}
 
   /* ===========/Main page - Section 2 - What are we doing==========*/
 
@@ -259,7 +254,6 @@ padding-bottom: 120px;
   margin: 0 auto;
   padding-top: 120px;
   padding-bottom: 120px;
-
 }
 .team-list { 
   display: flex;
@@ -270,8 +264,7 @@ background:var(--color-card-team);
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
 }
-.team-images { display: block;
- 
+.team-images { display: block; 
 }
 
 .team-card{
@@ -290,8 +283,6 @@ background: var(--color-background-hero);
   padding-top: 100px;
   padding-bottom: 100px;
 }
-
-  
 
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -350,12 +341,8 @@ margin: 0 auto;
   cursor: pointer;
   color: var(--color-IRIS);
   text-align: center;
-
   padding:12px 24px;
-
-  
 }
-
 
 
 .filter-btn:hover,
@@ -382,20 +369,10 @@ margin: 0 auto;
 .project-card{ 
   border: 1px solid #E7E9FC;
   border-top: 1px solid transparent;
-  
   padding-top: 32px;
   padding-bottom: 32px;
-
 }
-
-.project-card .title{
-
-}
-
 .project-item .title , 
 .project-item .text {padding-left: 16px;}
-
-  
-
 
 /* ========ROW 1-3================= */
